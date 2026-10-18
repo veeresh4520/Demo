@@ -13,7 +13,7 @@ public class ActivitySelection {
         }
         Arrays.sort(activities, (a, b) -> a[1] - b[1]);
 
-        int count = 0;
+        int count2 = 0;
         int lastFinish = 0;
         for (int i = 0; i < n; i++) {
             int start = activities[i][0];
